@@ -16,6 +16,7 @@ public class SpringDiAplication {
         System.out.println("============");
 
         MemoryCustomerRepository memoryCustomerRepository = context.getBean(MemoryCustomerRepository.class);
+        memoryCustomerRepository.addCustomer();
 
 
 
